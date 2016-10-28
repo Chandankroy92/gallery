@@ -1,0 +1,59 @@
+body{
+	background-color: gray;
+}
+#gallery{
+	width: 350px;
+	margin: 15px auto;
+	position: relative;
+	}
+	#upper {
+		width: 130%;
+		height: 450px;
+		margin-bottom: 10px;
+		background-color: #FFF;
+
+	}
+	#upper img{
+		width: 130%;
+		position: absolute;
+	}
+	.thumb img {
+		width: 150px;
+		height: 120px;
+	}
+	#lower{
+		overflow: hidden;
+		width: 130%
+
+		
+	}
+	.arrow{
+		position: absolute;
+		bottom: 40px;
+	}
+	#left{
+		left: -60px;
+		font-size: 40px;
+	}
+	#right{
+		right: -150px;
+		font-size: 40px;
+	}
+	#thumbs{
+		white-space: nowrap;
+	}
+
+	#thumbs img {
+		opacity: 0.4;
+		background-color: #FFF;
+	}
+	
+	#thumbs img:hover {
+		opacity: 1;
+	}
+	#thumbs a {
+		display: inline-block;
+	}
+	.arrow.disabled {
+		display: none;
+	}
